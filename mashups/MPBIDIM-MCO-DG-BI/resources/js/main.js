@@ -1,12 +1,12 @@
 
-const tenantUri = 'https://mpbidim.eu.qlikcloud.com';
-const tenant = 'mpbidim.eu.qlikcloud.com';
-const webIntegrationId = 'NbS4WzLvbncTTzj3eE8vUJ6bnK5txUe2';
-const tenantName = "MPBIDIM";
+const tenantUri = 'https://u85p0op11utybuc.eu.qlikcloud.com';
+const tenant = 'u85p0op11utybuc.eu.qlikcloud.com';
+const webIntegrationId = '4gkZHHtdVN94VjdPOpWMaxuE4nFGG-o9';
+const tenantName = "u85p0op11utybuc";
 const theme = 'theme_mpbidim';
-const appId = '86d5e3e7-dcea-46a4-b1af-b1b789595297'; //
-const appName = "MPBIDIM MCO DG BI"; //
-const homeSheet = "b2786d63-c1f9-4c03-a146-7395ea037c17"; //
+const appId = '83dbd303-8b0e-4122-ba7c-eef50e07f32f'; //
+const appName = "tutorial"; //
+const homeSheet = "83dbd303-8b0e-4122-ba7c-eef50e07f32f"; //
 var iframSrc = tenantUri + "/single/?appid=" + appId + "&theme=" + theme + "&opt=ctxmenu" + "&sheet=";
 
 (async () => {
