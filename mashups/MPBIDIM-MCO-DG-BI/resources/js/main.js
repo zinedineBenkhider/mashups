@@ -6,7 +6,7 @@ const tenantName = "u85p0op11utybuc";
 const theme = 'theme_mpbidim';
 const appId = '83dbd303-8b0e-4122-ba7c-eef50e07f32f'; //
 const appName = "tutorial"; //
-const homeSheet = "83dbd303-8b0e-4122-ba7c-eef50e07f32f"; //
+const homeSheet = "756a9967-66cd-4320-bbc3-5135f65a4074"; //
 var iframSrc = tenantUri + "/single/?appid=" + appId + "&theme=" + theme + "&opt=ctxmenu" + "&sheet=";
 
 (async () => {
