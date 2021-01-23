@@ -1,0 +1,136 @@
+﻿
+
+div.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 45px 45px 0;
+}
+
+div.qvobject {
+    flex: 1 1 auto;
+    height: 100px;
+    margin: 45px 0 0 45px;
+}
+
+.qv-listbox-scroll-area ul {
+    color: white !important;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+.qv-object.qv-object-listbox .qv-object-title {
+    color: white !important;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+    .qv-object.qv-object-listbox .qv-object-title .lui-icon--select-alternative, .qv-object.qv-object-listbox .qv-object-title .qv-object-locked, .qv-object.qv-object-listbox .qv-object-title .qv-object-search {
+        color: white !important;
+    }
+
+
+.scrollbar-track.vertical .scrollbar-thumb {
+    background: white !important;
+}
+
+
+.content-header > h1 > small {
+   color: #fff
+}
+
+.skin-black .main-header .navbar {
+    background-color: black;
+}
+
+.skin-black .main-header > .logo {
+    background-color: black;
+}
+
+    .skin-black .main-header > .logo:hover {
+        background-color: black;
+    }
+
+.sheet-body {
+    margin-right: 20px
+}
+
+.buttons-end.borderbox {
+    display: none;
+}
+
+.max-h-0 {
+    max-height: 0;
+}
+
+
+#selectionsAndFilters {
+    display: none;
+}
+
+.object-filter {
+    height: 180px
+}
+
+/*Sidebar for Filters*/
+.sidebarFilter {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 50px;
+    right: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+    .sidebarFilter a {
+        /*padding: 8px 8px 8px 32px;*/
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .sidebarFilter a:hover {
+            color: #f1f1f1;
+        }
+
+    .sidebarFilter .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+    .openbtn:hover {
+        background-color: #444;
+    }
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebarFilter {
+        padding-top: 15px;
+    }
+
+        .sidebarFilter a {
+            font-size: 18px;
+        }
+}
+
+/*End Sidebar for Filters*/
